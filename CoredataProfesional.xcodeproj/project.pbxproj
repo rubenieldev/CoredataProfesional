@@ -14,6 +14,9 @@
 		84B5C65B23C6BB2700E3418D /* CoredataProfesional.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B5C65923C6BB2700E3418D /* CoredataProfesional.xcdatamodeld */; };
 		84B5C65D23C6BB2800E3418D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B5C65C23C6BB2800E3418D /* Assets.xcassets */; };
 		84B5C66023C6BB2800E3418D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B5C65E23C6BB2800E3418D /* LaunchScreen.storyboard */; };
+		84B5C66923C6BE8B00E3418D /* Alumno+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5C66723C6BE8B00E3418D /* Alumno+CoreDataClass.swift */; };
+		84B5C66A23C6BE8B00E3418D /* Alumno+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5C66823C6BE8B00E3418D /* Alumno+CoreDataProperties.swift */; };
+		84B5C66C23C6C55B00E3418D /* DatosAlumno.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B5C66B23C6C55B00E3418D /* DatosAlumno.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		84B5C65C23C6BB2800E3418D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B5C65F23C6BB2800E3418D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B5C66123C6BB2800E3418D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B5C66723C6BE8B00E3418D /* Alumno+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alumno+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84B5C66823C6BE8B00E3418D /* Alumno+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alumno+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84B5C66B23C6C55B00E3418D /* DatosAlumno.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DatosAlumno.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 		84B5C64423C6BB2700E3418D = {
 			isa = PBXGroup;
 			children = (
+				84B5C66723C6BE8B00E3418D /* Alumno+CoreDataClass.swift */,
+				84B5C66823C6BE8B00E3418D /* Alumno+CoreDataProperties.swift */,
 				84B5C64F23C6BB2700E3418D /* CoredataProfesional */,
 				84B5C64E23C6BB2700E3418D /* Products */,
 			);
@@ -66,6 +74,7 @@
 				84B5C65E23C6BB2800E3418D /* LaunchScreen.storyboard */,
 				84B5C66123C6BB2800E3418D /* Info.plist */,
 				84B5C65923C6BB2700E3418D /* CoredataProfesional.xcdatamodeld */,
+				84B5C66B23C6C55B00E3418D /* DatosAlumno.plist */,
 			);
 			path = CoredataProfesional;
 			sourceTree = "<group>";
@@ -130,6 +139,7 @@
 			files = (
 				84B5C66023C6BB2800E3418D /* LaunchScreen.storyboard in Resources */,
 				84B5C65D23C6BB2800E3418D /* Assets.xcassets in Resources */,
+				84B5C66C23C6C55B00E3418D /* DatosAlumno.plist in Resources */,
 				84B5C65823C6BB2700E3418D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B5C66923C6BE8B00E3418D /* Alumno+CoreDataClass.swift in Sources */,
+				84B5C66A23C6BE8B00E3418D /* Alumno+CoreDataProperties.swift in Sources */,
 				84B5C65523C6BB2700E3418D /* ViewController.swift in Sources */,
 				84B5C65123C6BB2700E3418D /* AppDelegate.swift in Sources */,
 				84B5C65B23C6BB2700E3418D /* CoredataProfesional.xcdatamodeld in Sources */,
