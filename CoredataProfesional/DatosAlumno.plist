@@ -3,17 +3,17 @@
 <plist version="1.0">
 <array>
 	<dict>
-        <key>calificacion</key>
-        <integer>0</integer>
-        <key>foto</key>
-        <string>prof1.jpeg</string>
-        <key>ultimavez</key>
-        <date>2020-01-09T02:28:39Z</date>
-        <key>numerocalificaciones</key>
-        <integer>0</integer>
-        <key>nombre</key>
-        <string>marcos</string>
-    </dict>
+		<key>calificacion</key>
+		<integer>0</integer>
+		<key>foto</key>
+		<string>prof1.jpeg</string>
+		<key>ultimavez</key>
+		<date>2020-01-09T02:28:39Z</date>
+		<key>numerocalificaciones</key>
+		<integer>0</integer>
+		<key>nombre</key>
+		<string>Victor</string>
+	</dict>
 	<dict>
 		<key>calificacion</key>
 		<integer>0</integer>
@@ -26,17 +26,17 @@
 		<key>nombre</key>
 		<string>jesus</string>
 	</dict>
-    <dict>
-        <key>calificacion</key>
-        <integer>0</integer>
-        <key>foto</key>
-        <string>prof2.jpeg</string>
-        <key>ultimavez</key>
-        <date>2020-01-09T02:28:39Z</date>
-        <key>numerocalificaciones</key>
-        <integer>0</integer>
-        <key>nombre</key>
-        <string>ruben</string>
-    </dict>
+	<dict>
+		<key>calificacion</key>
+		<integer>0</integer>
+		<key>foto</key>
+		<string>prof2.jpeg</string>
+		<key>ultimavez</key>
+		<date>2020-01-09T02:28:39Z</date>
+		<key>numerocalificaciones</key>
+		<integer>0</integer>
+		<key>nombre</key>
+		<string>ruben</string>
+	</dict>
 </array>
 </plist>
