@@ -152,6 +152,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         cell?.dato = alumno.nombre
         cell?.delegate = self
+        cell?.btbVer.decorar(radio: 10, bkgColor: .green, tntCol: .white)
         cell?.lblNombre.text = alumno.nombre
         cell?.alumno = alumno
         return cell!
@@ -175,6 +176,7 @@ extension ViewController:Btnver{
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let controlador = storyBoard.instantiateViewController(identifier: "vista") as? VistaViewController
         controlador?.alumno = alumno
+        controlador?.managedContext = self.managedContext
         present(controlador!, animated: true)
     }
     

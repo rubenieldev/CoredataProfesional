@@ -19,6 +19,7 @@
 		84B5C66C23C6C55B00E3418D /* DatosAlumno.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B5C66B23C6C55B00E3418D /* DatosAlumno.plist */; };
 		84C2C09A23C813940094BDEA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2C09923C813940094BDEA /* TableViewCell.swift */; };
 		84C2C09C23C823E90094BDEA /* VistaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2C09B23C823E90094BDEA /* VistaViewController.swift */; };
+		84C2C09E23C95F3F0094BDEA /* extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2C09D23C95F3F0094BDEA /* extensiones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		84B5C66B23C6C55B00E3418D /* DatosAlumno.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DatosAlumno.plist; sourceTree = "<group>"; };
 		84C2C09923C813940094BDEA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		84C2C09B23C823E90094BDEA /* VistaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaViewController.swift; sourceTree = "<group>"; };
+		84C2C09D23C95F3F0094BDEA /* extensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensiones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				84B5C66B23C6C55B00E3418D /* DatosAlumno.plist */,
 				84C2C09923C813940094BDEA /* TableViewCell.swift */,
 				84C2C09B23C823E90094BDEA /* VistaViewController.swift */,
+				84C2C09D23C95F3F0094BDEA /* extensiones.swift */,
 			);
 			path = CoredataProfesional;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				84B5C66A23C6BE8B00E3418D /* Alumno+CoreDataProperties.swift in Sources */,
 				84C2C09C23C823E90094BDEA /* VistaViewController.swift in Sources */,
 				84B5C65523C6BB2700E3418D /* ViewController.swift in Sources */,
+				84C2C09E23C95F3F0094BDEA /* extensiones.swift in Sources */,
 				84B5C65123C6BB2700E3418D /* AppDelegate.swift in Sources */,
 				84B5C65B23C6BB2700E3418D /* CoredataProfesional.xcdatamodeld in Sources */,
 				84C2C09A23C813940094BDEA /* TableViewCell.swift in Sources */,

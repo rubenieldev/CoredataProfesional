@@ -100,23 +100,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uxb-nO-jho">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uxb-nO-jho">
                                 <rect key="frame" x="117" y="64" width="180" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="Z0V-NF-LRf"/>
                                     <constraint firstAttribute="width" constant="180" id="bOB-gl-JNp"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hi7-wf-xxP">
+                                <rect key="frame" x="184" y="832" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="calificar:" destination="8rd-Gv-JYh" eventType="touchUpInside" id="hqV-cx-AAc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LCH-zE-okC">
+                                <rect key="frame" x="151" y="254" width="112" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calificación" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ny-qO-vbF">
+                                <rect key="frame" x="144" y="300" width="126" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ultima Vez" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Miv-p6-4Cu">
+                                <rect key="frame" x="149.5" y="340" width="115.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veces Calificado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dl-q1-djX">
+                                <rect key="frame" x="143.5" y="380" width="127" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="uxb-nO-jho" firstAttribute="top" secondItem="eSy-ru-bNt" secondAttribute="top" constant="20" id="AC9-aj-tGm"/>
+                            <constraint firstItem="LCH-zE-okC" firstAttribute="centerX" secondItem="9Rv-IZ-cnK" secondAttribute="centerX" id="Fsz-OU-TY7"/>
+                            <constraint firstItem="Hi7-wf-xxP" firstAttribute="centerX" secondItem="9Rv-IZ-cnK" secondAttribute="centerX" id="GY3-tY-1Ap"/>
+                            <constraint firstItem="8Dl-q1-djX" firstAttribute="top" secondItem="Miv-p6-4Cu" secondAttribute="bottom" constant="10" id="IK8-YK-HNr"/>
+                            <constraint firstItem="8Dl-q1-djX" firstAttribute="centerX" secondItem="9Rv-IZ-cnK" secondAttribute="centerX" id="Ijj-fK-Wzi"/>
+                            <constraint firstItem="Miv-p6-4Cu" firstAttribute="centerX" secondItem="9Rv-IZ-cnK" secondAttribute="centerX" id="KLx-hh-9Il"/>
+                            <constraint firstItem="Hi7-wf-xxP" firstAttribute="bottom" secondItem="eSy-ru-bNt" secondAttribute="bottom" id="NJu-QV-ZYz"/>
                             <constraint firstItem="uxb-nO-jho" firstAttribute="centerX" secondItem="9Rv-IZ-cnK" secondAttribute="centerX" id="Tet-5f-Yq1"/>
+                            <constraint firstItem="Miv-p6-4Cu" firstAttribute="top" secondItem="1Ny-qO-vbF" secondAttribute="bottom" constant="10" id="i3f-Ci-2vw"/>
+                            <constraint firstItem="1Ny-qO-vbF" firstAttribute="top" secondItem="LCH-zE-okC" secondAttribute="bottom" constant="10" id="q0V-92-cQX"/>
+                            <constraint firstItem="1Ny-qO-vbF" firstAttribute="centerX" secondItem="9Rv-IZ-cnK" secondAttribute="centerX" id="rmP-q3-9as"/>
+                            <constraint firstItem="LCH-zE-okC" firstAttribute="top" secondItem="uxb-nO-jho" secondAttribute="bottom" constant="10" id="ugL-0Q-V7b"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eSy-ru-bNt"/>
                     </view>
                     <connections>
+                        <outlet property="btnCalificar" destination="Hi7-wf-xxP" id="OFw-fT-zVM"/>
                         <outlet property="imgFoto" destination="uxb-nO-jho" id="kjg-lJ-mkQ"/>
+                        <outlet property="lblCalificacion" destination="1Ny-qO-vbF" id="Xwb-x7-lx8"/>
+                        <outlet property="lblNombre" destination="LCH-zE-okC" id="DsC-am-5so"/>
+                        <outlet property="lblUltimaVez" destination="Miv-p6-4Cu" id="0uJ-Uq-TtO"/>
+                        <outlet property="lblVecesCalificado" destination="8Dl-q1-djX" id="wc9-Oq-9Gb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kt0-Sr-oE4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

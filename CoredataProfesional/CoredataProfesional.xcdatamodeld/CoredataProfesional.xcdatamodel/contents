@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G103" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Alumno" representedClassName="Alumno" syncable="YES">
-        <attribute name="calificacion" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="calificacion" optional="YES" attributeType="Double" minValueString="0" maxValueString="11" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="foto" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
         <attribute name="nombre" optional="YES" attributeType="String"/>
         <attribute name="numerocalificaciones" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
